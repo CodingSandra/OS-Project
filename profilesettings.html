@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Open Strategy Network</title>
+
+    <!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/creative.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+      <!-- Navbar Bootstrap --> 
+      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.htmlpage-top"><img alt="Brand" src="img/os_logo.png" class="img-responsive" alt="Open Strategy Network"></a>
+            </div>
+
+            <!-- navbar-collapse for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> 
+                      <a class="page-scroll" href="news.html">News & Events</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="bibliography.html">Bibliography</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="members.html">Members</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="joinus.html">Join us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <form class="navbar-form navbar-right" role="register">
+                        <button type="login" class="btn btn-primary">LOG IN</button>
+                    </form>
+                </ul>
+
+            </div> <!-- /.navbar-collapse -->
+         </div> <!-- /.container-fluid -->
+        </nav> <!-- ./Navbar Bootstrap -->
+
+        <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+        <div class="white-space">
+        </div>
+
+
+    <!-- Basics -->
+    <section id="Settings">
+        <div class="container">
+            <div class="row">
+                <div class="white-space">
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h1>PROFILE SETTINGS</h1>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h3>BASICS</h3>
+                    <p class="text-muted">Change your basic account settings. *Please fill out the required fields.</p>   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                      <div class="form-group">
+                        <label for="membername">Member Name*</label>
+                        <input type="firstname" class="form-control" id="firstname" placeholder="First Name">
+                        <input type="lastname" class="form-control" id="lastname" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="institution">Institution/Company*</label>
+                        <input type="institution" class="form-control" id="institution" placeholder="Institution or Company">
+                      </div>
+                      <div class="form-group">
+                        <label for="interests">Interests reg. Open Strategy* <span class="badge" data-toggle="tooltip" class="grey-tooltip" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa." data-placement="bottom" href="#">?</span></label>
+                        <input type="interests" class="form-control" id="interests" placeholder="Interests reg. Open Strategy">
+                      </div>
+                      <div class="form-group">
+                        <label for="position">Position</label>
+                        <input type="position" class="form-control" id="position" placeholder="Position">
+                      </div>
+                      <div class="form-group">
+                        <label for="beispielFeldDatei">Profile Photo</label>
+                        <div class="form-group">
+                        <a class="btn btn-default" onclick="$('input[id=lefile]').click();">Upload</a>
+                        </div>
+                      </div>  
+                      <div class="form-group">
+                        <label for="password">Password*</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </section> <!-- ./Basics -->
+
+    <div class="white-space">
+    </div>
+
+    <!-- Security -->
+    <section id="Settings">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>SECURITY</h3>
+                    <p class="text-muted">Change your password or recover your current one</p>   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                      <div class="form-group">
+                        <label for="current-password">Current Password*</label>
+                        <input type="current-password" class="form-control" id="current-password" placeholder="Current Password">
+                        <a href="#">Forgot your Password?</a>
+                      </div>
+                      <div class="form-group">
+                        <label for="new-password">New Password*</label>
+                        <input type="new-password" class="form-control" id="new-password" placeholder="New Password">
+                      </div>
+                      <div class="form-group">
+                        <label for="confirm-password">Confirm new Password*</label>
+                        <input type="confirm-password" class="form-control" id="confirm-password" placeholder="Confirm new Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </section> <!-- ./Security -->
+
+    <div class="white-space">
+    </div>
+
+
+    
+        <!-- footer -->
+        <footer> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>OUR SPONSORS</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <img class="sponsor-thumbnail" src="img/logo_uni_zuerich.svg" alt="University of Zurich"></span>
+                        <p class="footer-link"><href="url">University of Zurich</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="sponsor-thumbnail" src="img/logo_uni_zuerich.svg" alt="University of Zurich"></span>
+                        <p class="footer-link"><href="url">University of Oxford</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="sponsor-thumbnail" src="img/logo_uni_zuerich.svg" alt="University of Zurich"></span>
+                        <p class="footer-link"><href="url">University of Innsbruck</p>
+                    </div>
+                </div>
+            </div> <!-- ./Container -->
+        </footer> <!-- ./Footer -->
+
+        <!-- Imprint&Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <span class="copyright">&copy; Open Strategy Network 2016</span>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-inline quicklinks">
+                            <li><a class="footer-link"><href="#">Imprint</a>
+                            </li>
+    <!--                     <li><a href="#">Terms of Use</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- ./Imprint&Copyright -->
+
+
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
+
+
+</body>
+
+</html>
